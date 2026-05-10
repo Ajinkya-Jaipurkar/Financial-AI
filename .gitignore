@@ -1,0 +1,51 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Data files (too large for git)
+Data/*.csv
+Data/*.parquet
+Data/*.h5
+
+# Model weights (too large for git)
+models/*.pt
+models/*.pth
+models/*.ckpt
+
+# Outputs
+outputs/*.png
+outputs/*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment variables
+.env
+secrets.py
+
+# WandB
+wandb/
+
+# HuggingFace cache
+hf-cache/
+torch-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
